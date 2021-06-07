@@ -15,6 +15,7 @@
 		6EABED98266DE82500B0A966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EABED96266DE82500B0A966 /* LaunchScreen.storyboard */; };
 		6EABEDA3266DE82500B0A966 /* dev_profileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABEDA2266DE82500B0A966 /* dev_profileTests.swift */; };
 		6EABEDAE266DE82500B0A966 /* dev_profileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EABEDAD266DE82500B0A966 /* dev_profileUITests.swift */; };
+		6EB248B4266E051700190F96 /* style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB248B3266E051700190F96 /* style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6EABEDA9266DE82500B0A966 /* dev-profileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dev-profileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EABEDAD266DE82500B0A966 /* dev_profileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev_profileUITests.swift; sourceTree = "<group>"; };
 		6EABEDAF266DE82500B0A966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB248B3266E051700190F96 /* style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6EABED7F266DE82400B0A966 = {
 			isa = PBXGroup;
 			children = (
+				6EB248AE266DFF0400190F96 /* views */,
 				6EABED8A266DE82400B0A966 /* dev-profile */,
 				6EABEDA1266DE82500B0A966 /* dev-profileTests */,
 				6EABEDAC266DE82500B0A966 /* dev-profileUITests */,
@@ -126,6 +129,14 @@
 				6EABEDAF266DE82500B0A966 /* Info.plist */,
 			);
 			path = "dev-profileUITests";
+			sourceTree = "<group>";
+		};
+		6EB248AE266DFF0400190F96 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6EB248B3266E051700190F96 /* style.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				6EABED90266DE82400B0A966 /* ViewController.swift in Sources */,
 				6EABED8C266DE82400B0A966 /* AppDelegate.swift in Sources */,
 				6EABED8E266DE82400B0A966 /* SceneDelegate.swift in Sources */,
+				6EB248B4266E051700190F96 /* style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W6PRKL28F;
 				INFOPLIST_FILE = "dev-profile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
